@@ -4,7 +4,7 @@ pipeline {
 
   environment {
     DOCKER_IMAGE = "anhtus/flask-docker",
-    DOCKER_HUB_NAME = "docker-hub",
+    DOCKER_HUB_NAME = "docker-hub"
   }
 
   stages {
